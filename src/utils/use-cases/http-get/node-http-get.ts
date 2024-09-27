@@ -30,7 +30,8 @@ export class NodeHttpGetClient implements HttpGetClient {
             return resolve({
               status: res.statusCode || 200,
               headers: res.headers as Record<string, any>,
-              data: JSON.parse(stringData),
+              // data: JSON.parse(stringData),
+              data: JSON.stringify(res.headers),
             });
           });
         })
