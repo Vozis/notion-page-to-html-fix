@@ -1,5 +1,5 @@
 {
-  "name": "notion-page-to-html",
+  "name": "notion-page-to-html-fix",
   "version": "1.2.0",
   "description": "It converts public notion pages to html from url",
   "main": "dist/index.js",
@@ -17,19 +17,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asnunes/notion-page-to-html.git"
+    "url": "git+https://github.com/Vozis/notion-page-to-html-fix.git"
   },
   "keywords": [
     "notion",
     "page",
     "html"
   ],
-  "author": "Alexandre Nunes",
+  "author": "Alexandre Nunes | Ilya Sizov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/asnunes/notion-page-to-html/issues"
+    "url": "https://github.com/Vozis/notion-page-to-html-fix/issues"
   },
-  "homepage": "https://github.com/asnunes/notion-page-to-html#readme",
+  "homepage": "https://github.com/Vozis/notion-page-to-html-fix#readme",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/nock": "^11.1.0",
